@@ -1,0 +1,60 @@
+2019-10-10 16:46:07,089 ERROR 41783 [-/::1/-/8ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/ccsa/github/egg-project/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/ccsa/github/egg-project/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/ccsa/github/egg-project/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/ccsa/github/egg-project/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/ccsa/github/egg-project/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/ccsa/github/egg-project/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/ccsa/github/egg-project/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/ccsa/github/egg-project/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/ccsa/github/egg-project/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/ccsa/github/egg-project/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 41783
+hostname: yan-imac.local
+
+2019-10-10 16:55:08,850 ERROR 41783 [-/::1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/ccsa/github/egg-project/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/ccsa/github/egg-project/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/ccsa/github/egg-project/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/ccsa/github/egg-project/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/ccsa/github/egg-project/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/ccsa/github/egg-project/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/ccsa/github/egg-project/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/ccsa/github/egg-project/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/ccsa/github/egg-project/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/ccsa/github/egg-project/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 41783
+hostname: yan-imac.local
+
+2019-10-10 16:55:09,133 ERROR 41783 [-/::1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/ccsa/github/egg-project/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/ccsa/github/egg-project/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/ccsa/github/egg-project/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/ccsa/github/egg-project/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/ccsa/github/egg-project/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/ccsa/github/egg-project/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/ccsa/github/egg-project/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/ccsa/github/egg-project/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/ccsa/github/egg-project/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/ccsa/github/egg-project/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 41783
+hostname: yan-imac.local
+
+2019-10-10 16:55:09,404 ERROR 41783 [-/::1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/ccsa/github/egg-project/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/ccsa/github/egg-project/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/ccsa/github/egg-project/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/ccsa/github/egg-project/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/ccsa/github/egg-project/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/ccsa/github/egg-project/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/ccsa/github/egg-project/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/ccsa/github/egg-project/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/ccsa/github/egg-project/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/ccsa/github/egg-project/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 41783
+hostname: yan-imac.local
+

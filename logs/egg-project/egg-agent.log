@@ -1,0 +1,70 @@
+2019-10-10 16:45:05,536 INFO 41782 [egg:logger] init all loggers with options: {"dir":"/Users/ccsa/github/egg-project/logs/egg-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-project-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-10-10 16:45:05,544 INFO 41782 [egg:core] dump config after load, 4ms
+2019-10-10 16:45:05,589 INFO 41782 [egg-watcher] Start watching: ["/Users/ccsa/github/egg-project/app","/Users/ccsa/github/egg-project/config","/Users/ccsa/github/egg-project/mocks","/Users/ccsa/github/egg-project/mocks_proxy","/Users/ccsa/github/egg-project/app.js"]
+2019-10-10 16:45:05,589 INFO 41782 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/app"
+2019-10-10 16:45:05,589 INFO 41782 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/config"
+2019-10-10 16:45:05,589 INFO 41782 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/mocks"
+2019-10-10 16:45:05,589 INFO 41782 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/mocks_proxy"
+2019-10-10 16:45:05,589 INFO 41782 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/app.js"
+2019-10-10 16:45:05,589 INFO 41782 [egg-watcher:agent] watcher start success
+2019-10-10 16:45:05,604 INFO 41782 [egg:core] dump config after ready, 3ms
+2019-10-10 16:55:13,775 INFO 42975 [egg:logger] init all loggers with options: {"dir":"/Users/ccsa/github/egg-project/logs/egg-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-project-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-10-10 16:55:13,783 INFO 42975 [egg:core] dump config after load, 3ms
+2019-10-10 16:55:13,812 INFO 42975 [egg-watcher] Start watching: ["/Users/ccsa/github/egg-project/app","/Users/ccsa/github/egg-project/config","/Users/ccsa/github/egg-project/mocks","/Users/ccsa/github/egg-project/mocks_proxy","/Users/ccsa/github/egg-project/app.js"]
+2019-10-10 16:55:13,812 INFO 42975 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/app"
+2019-10-10 16:55:13,813 INFO 42975 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/config"
+2019-10-10 16:55:13,813 INFO 42975 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/mocks"
+2019-10-10 16:55:13,813 INFO 42975 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/mocks_proxy"
+2019-10-10 16:55:13,813 INFO 42975 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/app.js"
+2019-10-10 16:55:13,813 INFO 42975 [egg-watcher:agent] watcher start success
+2019-10-10 16:55:13,838 INFO 42975 [egg:core] dump config after ready, 2ms
+2019-10-10 17:31:53,071 INFO 42975 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/ccsa/github/egg-project/app/middleware","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5355649,"size":64,"blocks":0,"atimeMs":1570699913070.1997,"mtimeMs":1570699912972.364,"ctimeMs":1570699912972.364,"birthtimeMs":1570699912972.364,"atime":"2019-10-10T09:31:53.070Z","mtime":"2019-10-10T09:31:52.972Z","ctime":"2019-10-10T09:31:52.972Z","birthtime":"2019-10-10T09:31:52.972Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-10-10 17:32:06,242 INFO 42975 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/ccsa/github/egg-project/app/service","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5355655,"size":64,"blocks":0,"atimeMs":1570699926242.031,"mtimeMs":1570699926234.0354,"ctimeMs":1570699926234.0354,"birthtimeMs":1570699926234.0354,"atime":"2019-10-10T09:32:06.242Z","mtime":"2019-10-10T09:32:06.234Z","ctime":"2019-10-10T09:32:06.234Z","birthtime":"2019-10-10T09:32:06.234Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-10-10 17:32:14,224 INFO 42975 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/ccsa/github/egg-project/app/view","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5355661,"size":64,"blocks":0,"atimeMs":1570699934224.4382,"mtimeMs":1570699934218.8113,"ctimeMs":1570699934218.8113,"birthtimeMs":1570699934218.8113,"atime":"2019-10-10T09:32:14.224Z","mtime":"2019-10-10T09:32:14.219Z","ctime":"2019-10-10T09:32:14.219Z","birthtime":"2019-10-10T09:32:14.219Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-10-10 17:32:25,482 INFO 42975 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/ccsa/github/egg-project/app/extend","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5355667,"size":64,"blocks":0,"atimeMs":1570699945481.2551,"mtimeMs":1570699945469.9802,"ctimeMs":1570699945469.9802,"birthtimeMs":1570699945469.9802,"atime":"2019-10-10T09:32:25.481Z","mtime":"2019-10-10T09:32:25.470Z","ctime":"2019-10-10T09:32:25.470Z","birthtime":"2019-10-10T09:32:25.470Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-10-10 17:35:16,402 WARN 42975 [agent:development] reload worker because /Users/ccsa/github/egg-project/app/controller/user.js rename
+2019-10-10 17:35:16,201 INFO 42975 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/ccsa/github/egg-project/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5355843,"size":0,"blocks":0,"atimeMs":1570700116190.542,"mtimeMs":1570700116134.3284,"ctimeMs":1570700116134.3284,"birthtimeMs":1570700116134.3284,"atime":"2019-10-10T09:35:16.191Z","mtime":"2019-10-10T09:35:16.134Z","ctime":"2019-10-10T09:35:16.134Z","birthtime":"2019-10-10T09:35:16.134Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-10-10 17:37:36,368 WARN 42975 [agent:development] reload worker because /Users/ccsa/github/egg-project/app/controller/user.js change
+2019-10-10 17:37:36,164 INFO 42975 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/ccsa/github/egg-project/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5355843,"size":254,"blocks":8,"atimeMs":1570700256101.5303,"mtimeMs":1570700256102.046,"ctimeMs":1570700256102.046,"birthtimeMs":1570700116134.3284,"atime":"2019-10-10T09:37:36.102Z","mtime":"2019-10-10T09:37:36.102Z","ctime":"2019-10-10T09:37:36.102Z","birthtime":"2019-10-10T09:35:16.134Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-10-10 17:38:16,848 WARN 42975 [agent:development] reload worker because /Users/ccsa/github/egg-project/app/router.js change
+2019-10-10 17:38:16,643 INFO 42975 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/ccsa/github/egg-project/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":5353538,"size":190,"blocks":8,"atimeMs":1570700296580.075,"mtimeMs":1570700296581.174,"ctimeMs":1570700296581.174,"birthtimeMs":1570697474170.788,"atime":"2019-10-10T09:38:16.580Z","mtime":"2019-10-10T09:38:16.581Z","ctime":"2019-10-10T09:38:16.581Z","birthtime":"2019-10-10T08:51:14.171Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-10-10 17:38:29,383 INFO 44951 [egg:logger] init all loggers with options: {"dir":"/Users/ccsa/github/egg-project/logs/egg-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-project-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-10-10 17:38:29,391 INFO 44951 [egg:core] dump config after load, 4ms
+2019-10-10 17:38:29,423 INFO 44951 [egg-watcher] Start watching: ["/Users/ccsa/github/egg-project/app","/Users/ccsa/github/egg-project/config","/Users/ccsa/github/egg-project/mocks","/Users/ccsa/github/egg-project/mocks_proxy","/Users/ccsa/github/egg-project/app.js"]
+2019-10-10 17:38:29,423 INFO 44951 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/app"
+2019-10-10 17:38:29,423 INFO 44951 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/config"
+2019-10-10 17:38:29,423 INFO 44951 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/mocks"
+2019-10-10 17:38:29,423 INFO 44951 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/mocks_proxy"
+2019-10-10 17:38:29,423 INFO 44951 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/app.js"
+2019-10-10 17:38:29,423 INFO 44951 [egg-watcher:agent] watcher start success
+2019-10-10 17:38:29,449 INFO 44951 [egg:core] dump config after ready, 2ms
+2019-10-10 17:38:44,543 INFO 45015 [egg:logger] init all loggers with options: {"dir":"/Users/ccsa/github/egg-project/logs/egg-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-project-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-10-10 17:38:44,550 INFO 45015 [egg:core] dump config after load, 3ms
+2019-10-10 17:38:44,578 INFO 45015 [egg-watcher] Start watching: ["/Users/ccsa/github/egg-project/app","/Users/ccsa/github/egg-project/config","/Users/ccsa/github/egg-project/mocks","/Users/ccsa/github/egg-project/mocks_proxy","/Users/ccsa/github/egg-project/app.js"]
+2019-10-10 17:38:44,578 INFO 45015 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/app"
+2019-10-10 17:38:44,578 INFO 45015 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/config"
+2019-10-10 17:38:44,579 INFO 45015 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/mocks"
+2019-10-10 17:38:44,579 INFO 45015 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/mocks_proxy"
+2019-10-10 17:38:44,579 INFO 45015 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/app.js"
+2019-10-10 17:38:44,579 INFO 45015 [egg-watcher:agent] watcher start success
+2019-10-10 17:38:44,603 INFO 45015 [egg:core] dump config after ready, 3ms
+2019-10-10 17:39:13,326 INFO 45094 [egg:logger] init all loggers with options: {"dir":"/Users/ccsa/github/egg-project/logs/egg-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-project-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-10-10 17:39:13,334 INFO 45094 [egg:core] dump config after load, 3ms
+2019-10-10 17:39:13,364 INFO 45094 [egg-watcher] Start watching: ["/Users/ccsa/github/egg-project/app","/Users/ccsa/github/egg-project/config","/Users/ccsa/github/egg-project/mocks","/Users/ccsa/github/egg-project/mocks_proxy","/Users/ccsa/github/egg-project/app.js"]
+2019-10-10 17:39:13,364 INFO 45094 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/app"
+2019-10-10 17:39:13,364 INFO 45094 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/config"
+2019-10-10 17:39:13,364 INFO 45094 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/mocks"
+2019-10-10 17:39:13,364 INFO 45094 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/mocks_proxy"
+2019-10-10 17:39:13,364 INFO 45094 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/app.js"
+2019-10-10 17:39:13,364 INFO 45094 [egg-watcher:agent] watcher start success
+2019-10-10 17:39:13,388 INFO 45094 [egg:core] dump config after ready, 2ms
+2019-10-10 17:39:58,087 INFO 45235 [egg:logger] init all loggers with options: {"dir":"/Users/ccsa/github/egg-project/logs/egg-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-project-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-10-10 17:39:58,094 INFO 45235 [egg:core] dump config after load, 3ms
+2019-10-10 17:39:58,125 INFO 45235 [egg-watcher] Start watching: ["/Users/ccsa/github/egg-project/app","/Users/ccsa/github/egg-project/config","/Users/ccsa/github/egg-project/mocks","/Users/ccsa/github/egg-project/mocks_proxy","/Users/ccsa/github/egg-project/app.js"]
+2019-10-10 17:39:58,125 INFO 45235 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/app"
+2019-10-10 17:39:58,125 INFO 45235 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/config"
+2019-10-10 17:39:58,125 INFO 45235 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/mocks"
+2019-10-10 17:39:58,125 INFO 45235 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/mocks_proxy"
+2019-10-10 17:39:58,125 INFO 45235 [egg-watcher] Start watching: "/Users/ccsa/github/egg-project/app.js"
+2019-10-10 17:39:58,126 INFO 45235 [egg-watcher:agent] watcher start success
+2019-10-10 17:39:58,151 INFO 45235 [egg:core] dump config after ready, 2ms
